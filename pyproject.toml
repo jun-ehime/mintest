@@ -42,8 +42,8 @@ dependencies = [
 test = ["pytest>=7.0"]
 
 [project.urls]
-Homepage = "https://github.com/jun-jukuko/mintest"
-Issues = "https://github.com/jun-jukuko/mintest/issues"
+Homepage = "https://github.com/jun-ehime/mintest"
+Issues = "https://github.com/jun-ehime/mintest/issues"
 
 [project.scripts]
 mintest = "mintest.cli:main"

@@ -1,5 +1,7 @@
 # mintest
 
+Repository: https://github.com/jun-ehime/mintest
+
 Minimum-size test design over a **Q-matrix** (an `items x skills` binary
 matrix used in cognitive diagnosis / knowledge-component modeling).
 
