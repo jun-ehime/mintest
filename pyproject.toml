@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mintest"
+version = "0.1.0"
+description = "Minimum knowledge-component-covering and r-robust diagnostic separation test design over a Q-matrix (exact ILP/MaxSAT solvers + greedy baselines)."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [
+    { name = "Junya Takasuka", email = "jun.jukuko@gmail.com" },
+]
+keywords = [
+    "Q-matrix",
+    "cognitive diagnosis",
+    "test design",
+    "set cover",
+    "MaxSAT",
+    "ILP",
+    "educational measurement",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.8",
+    "python-sat>=0.1.8",
+    "pulp>=2.7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/jun-jukuko/mintest"
+Issues = "https://github.com/jun-jukuko/mintest/issues"
+
+[project.scripts]
+mintest = "mintest.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

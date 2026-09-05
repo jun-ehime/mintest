@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "mintest: Minimum Q-matrix Cover and r-Robust Diagnostic Separation Test Design"
+version: 0.1.0
+date-released: 2026-09-05
+authors:
+  - family-names: Takasuka
+    given-names: Junya
+    email: jun.jukuko@gmail.com
+    affiliation: "Ehime University, Graduate School of Science and Engineering"
+license: MIT
+repository-code: "https://github.com/jun-jukuko/mintest"
+keywords:
+  - Q-matrix
+  - cognitive diagnosis
+  - test design
+  - set cover
+  - MaxSAT
+  - integer linear programming
+  - educational measurement
